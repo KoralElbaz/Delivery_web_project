@@ -1,0 +1,202 @@
+[
+  {
+    "product": "Air purifier",
+    "price": 48.1
+  },
+  {
+    "product": "Air conditioner",
+    "price": 29.45
+  },
+  {
+    "product": "Alarm clock",
+    "price": 38.95
+  },
+  {
+    "product": "Backup charger",
+    "price": 17.68
+  },
+  {
+    "product": "Bread maker",
+    "price": 37.11
+  },
+  {
+    "product": "Banknote counter",
+    "price": 11.14
+  },
+  {
+    "product": "Blender",
+    "price": 38.19
+  },
+  {
+    "product": "Bluetooth speaker",
+    "price": 27.35
+  },
+  {
+    "product": "Bulb",
+    "price": 48.59
+  },
+  {
+    "product": "Calculator",
+    "price": 15.79
+  },
+  {
+    "product": "Car toy",
+    "price": 37.48
+  },
+  {
+    "product": "Ceiling fan",
+    "price": 14.77
+  },
+  {
+    "product": "Chandelier",
+    "price": 36.3
+  },
+  {
+    "product": "Clock",
+    "price": 13.02
+  },
+  {
+    "product": "Clothes dryer",
+    "price": 48.79
+  },
+  {
+    "product": "Coffee maker",
+    "price": 20.31
+  },
+  {
+    "product": "Computer",
+    "price": 34.18
+  },
+  {
+    "product": "Copier",
+    "price": 19.49
+  },
+  {
+    "product": "Curling iron",
+    "price": 35.12
+  },
+  {
+    "product": "Digital camera",
+    "price": 16.76
+  },
+  {
+    "product": "Dishwasher",
+    "price": 41.48
+  },
+  {
+    "product": "Doorbell camera",
+    "price": 29.66
+  },
+  {
+    "product": "Drill",
+    "price": 42.7
+  },
+  {
+    "product": "Dvd player",
+    "price": 17.01
+  },
+  {
+    "product": "Earphones",
+    "price": 34.05
+  },
+  {
+    "product": "Electric frying pan",
+    "price": 28.86
+  },
+  {
+    "product": "Electric grill",
+    "price": 46.21
+  },
+  {
+    "product": "Electric guitar",
+    "price": 27.81
+  },
+  {
+    "product": "Electric pencil sharpener",
+    "price": 38.5
+  },
+  {
+    "product": "Electric razor",
+    "price": 29.97
+  },
+  {
+    "product": "Electric stove",
+    "price": 45.26
+  },
+  {
+    "product": "Exhaust fan",
+    "price": 27.61
+  },
+  {
+    "product": "External hard drive",
+    "price": 42.48
+  },
+  {
+    "product": "Fan",
+    "price": 14.35
+  },
+  {
+    "product": "Facial cleansing machine",
+    "price": 42.97
+  },
+  {
+    "product": "Fax",
+    "price": 13.55
+  },
+  {
+    "product": "Fish tank",
+    "price": 48.96
+  },
+  {
+    "product": "Floor lamp",
+    "price": 21.01
+  },
+  {
+    "product": "Game controller",
+    "price": 45.88
+  },
+  {
+    "product": "Garage",
+    "price": 15.18
+  },
+  {
+    "product": "Grandfather clock",
+    "price": 41.32
+  },
+  {
+    "product": "Hair dryer",
+    "price": 27.14
+  },
+  {
+    "product": "Headset",
+    "price": 39.18
+  },
+  {
+    "product": "Inkjet printer",
+    "price": 18.32
+  },
+  {
+    "product": "iPod",
+    "price": 35.13
+  },
+  {
+    "product": "Iron",
+    "price": 11.73
+  },
+  {
+    "product": "Juicer",
+    "price": 46.03
+  },
+  {
+    "product": "Kettle",
+    "price": 15.19
+  },
+  {
+    "product": "Kitchen scale",
+    "price": 38.18
+  },
+  {
+    "product": "Hair straightening machine",
+    "price": 25.62
+  }
+]

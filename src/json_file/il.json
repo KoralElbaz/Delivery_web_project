@@ -1,0 +1,222 @@
+[
+    {
+        "city": "Jerusalem",
+        "admin_name": "Jerusalem"
+    },
+    {
+        "city": "Tel Aviv-Yafo",
+        "admin_name": "Tel Aviv"
+    },
+    {
+        "city": "Haifa",
+        "admin_name": "Haifa"
+    },
+    {
+        "city": "Rishon LeZiyyon",
+        "admin_name": "Central"
+    },
+    {
+        "city": "Petah Tiqwa",
+        "admin_name": "Central"
+    },
+    {
+        "city": "Ashdod",
+        "admin_name": "Southern"
+    },
+    {
+        "city": "Netanya",
+        "admin_name": "Central"
+    },
+    {
+        "city": "Beersheba",
+        "admin_name": "Southern"
+    },
+    {
+        "city": "Bene Beraq",
+        "admin_name": "Tel Aviv"
+    },
+    {
+        "city": "Holon",
+        "admin_name": "Tel Aviv"
+    },
+    {
+        "city": "Ramat Gan",
+        "admin_name": "Tel Aviv"
+    },
+    {
+        "city": "Ashqelon",
+        "admin_name": "Southern"
+    },
+    {
+        "city": "Rehovot",
+        "admin_name": "Central"
+    },
+    {
+        "city": "Bat Yam",
+        "admin_name": "Tel Aviv"
+    },
+    {
+        "city": "Bet Shemesh",
+        "admin_name": "Jerusalem"
+    },
+    {
+        "city": "Kefar Sava",
+        "admin_name": "Central"
+    },
+    {
+        "city": "Herzliyya",
+        "admin_name": "Tel Aviv"
+    },
+    {
+        "city": "Hadera",
+        "admin_name": "Haifa"
+    },
+    {
+        "city": "Modi‘in Makkabbim Re‘ut",
+        "admin_name": "Central"
+    },
+    {
+        "city": "Nazareth",
+        "admin_name": "Northern"
+    },
+    {
+        "city": "Lod",
+        "admin_name": "Central"
+    },
+    {
+        "city": "Ramla",
+        "admin_name": "Central"
+    },
+    {
+        "city": "Ra‘ananna",
+        "admin_name": "Central"
+    },
+    {
+        "city": "Rahat",
+        "admin_name": "Southern"
+    },
+    {
+        "city": "Nahariyya",
+        "admin_name": "Northern"
+    },
+    {
+        "city": "Givatayim",
+        "admin_name": "Tel Aviv"
+    },
+    {
+        "city": "Hod HaSharon",
+        "admin_name": "Central"
+    },
+    {
+        "city": "Rosh Ha‘Ayin",
+        "admin_name": "Central"
+    },
+    {
+        "city": "Qiryat Ata",
+        "admin_name": "Haifa"
+    },
+    {
+        "city": "Umm el Fahm",
+        "admin_name": "Haifa"
+    },
+    {
+        "city": "Qiryat Gat",
+        "admin_name": "Southern"
+    },
+    {
+        "city": "Eilat",
+        "admin_name": "Southern"
+    },
+    {
+        "city": "Nes Ziyyona",
+        "admin_name": "Central"
+    },
+    {
+        "city": "‘Akko",
+        "admin_name": "Northern"
+    },
+    {
+        "city": "El‘ad",
+        "admin_name": "Central"
+    },
+    {
+        "city": "Ramat HaSharon",
+        "admin_name": "Tel Aviv"
+    },
+    {
+        "city": "Karmiel",
+        "admin_name": "Northern"
+    },
+    {
+        "city": "Afula",
+        "admin_name": "Northern"
+    },
+    {
+        "city": "Tiberias",
+        "admin_name": "Northern"
+    },
+    {
+        "city": "Et Taiyiba",
+        "admin_name": "Central"
+    },
+    {
+        "city": "Qiryat Yam",
+        "admin_name": "Haifa"
+    },
+    {
+        "city": "Qiryat Mozqin",
+        "admin_name": "Haifa"
+    },
+    {
+        "city": "Qiryat Bialik",
+        "admin_name": "Haifa"
+    },
+    {
+        "city": "Qiryat Ono",
+        "admin_name": "Tel Aviv"
+    },
+    {
+        "city": "Or Yehuda",
+        "admin_name": "Tel Aviv"
+    },
+    {
+        "city": "Ma‘alot Tarshiha",
+        "admin_name": "Northern"
+    },
+    {
+        "city": "Zefat",
+        "admin_name": "Northern"
+    },
+    {
+        "city": "Dimona",
+        "admin_name": "Southern"
+    },
+    {
+        "city": "Tamra",
+        "admin_name": "Northern"
+    },
+    {
+        "city": "Netivot",
+        "admin_name": "Southern"
+    },
+    {
+        "city": "Sakhnin",
+        "admin_name": "Northern"
+    },
+    {
+        "city": "Yehud",
+        "admin_name": "Central"
+    },
+    {
+        "city": "Al Butayhah",
+        "admin_name": "Northern"
+    },
+    {
+        "city": "Al Khushniyah",
+        "admin_name": "Northern"
+    },
+    {
+        "city": "Fiq",
+        "admin_name": "Northern"
+    }
+]

@@ -1,0 +1,113 @@
+<!--
+=========================================================
+Material Dashboard - v2.1.2
+=========================================================
+
+Product Page: https://www.creative-tim.com/product/material-dashboard
+Copyright 2020 Creative Tim (https://www.creative-tim.com)
+Coded by Creative Tim
+
+=========================================================
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. -->
+<!DOCTYPE html>
+<html>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<head>
+    <%- include("../partials/headers") %>
+    <!--ariel ws-->
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        var socket = io.connect();
+
+        function setWs() {
+            socket.on('newdata', function (msg) {
+                var element = document.getElementById(msg.districtId);
+                element.innerText = msg.value;
+            })
+            socket.on('newdata2', function (msg) {
+                for (let i = 0; i < 4; i++) {
+                    let zero = i+'1', one = i+'2', two = i+'3', three = i+'4';
+                    var element1 = document.getElementById(zero)
+                        element1.innerText = msg[i].Id;
+                    var element2 = document.getElementById(one)
+                        element2.innerText = msg[i].District;
+                    var element3 = document.getElementById(two)
+                        element3.innerText = msg[i].AllPrice;
+                    var element4 = document.getElementById(three)
+                        element4.innerText = msg[i].City;
+                }
+            })
+            socket.on('newdata3', function (sizeForChart) {
+                for (let i = 0; i < sizeForChart.length; i++) {
+                    var element1 = document.getElementById('graph'+i)
+                    element1.innerText = 'Total: '+sizeForChart[i].Total;
+                }
+                setChart(sizeForChart)
+            })
+        }
+        function setChart(sizeForChart){
+            let charts = ["chart1", "chart2", "chart3", "chart4", "chart5", "chart6"]
+
+            for (let i = 0; i < charts.length; i++) {
+                google.charts.load('current', {'packages':['corechart']});
+                google.charts.setOnLoadCallback(drawChart);
+                function drawChart() {
+                    var data = google.visualization.arrayToDataTable([
+                        ['Size', 'Amount'],
+                        ['Small',sizeForChart[i].s],
+                        ['Medium',sizeForChart[i].m],
+                        ['Large',sizeForChart[i].l]
+                    ]);
+
+                    var options = {
+                        title:'Arrived to '+sizeForChart[i].disId,
+                        // is3D:true
+                    };
+
+                    var chart = new google.visualization.PieChart(document.getElementById(charts[i]));
+                    chart.draw(data, options);
+                }
+            }
+        }
+
+        var sizeForChart1 = [{s:0, m:0, l:0, disId:'Central'},
+            {s:0, m:0, l:0, disId:'Northern'},
+            {s:0, m:0, l:0, disId:'Southern'},
+            {s:0, m:0, l:0, disId:'TelAviv'},
+            {s:0, m:0, l:0, disId:'Haifa'},
+            {s:0, m:0, l:0, disId:'Jerusalem'}]
+        setChart(sizeForChart1)
+    </script>
+    <!--ariel ws -->
+</head>
+
+<body class="" onload="setWs()">
+<div class="wrapper ">
+    <%- include("../partials/sidebar") %>
+    <div class="main-panel">
+        <%- include("../partials/navbar") %>
+        <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <!--start-->
+                    <% cards.forEach(function(card) { %>
+                        <%- include("../partials/card",card) %>
+                    <% }); %>
+                    <!--end-->
+                </div>
+                <div class="row">
+                    <%- include("../partials/graphs", sizeForChart) %>
+                </div>
+                <div class="row">
+                    <%- include("../partials/lastFourPackages", prods) %>
+                </div>
+            </div>
+        </div>
+        <%- include("../partials/footer") %>
+    </div>
+</div>
+<%- include("../partials/dashcode") %>
+</body>
+
+</html>

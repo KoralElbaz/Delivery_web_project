@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+    background: rgb(234, 198, 245);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+table{
+    width: 100%;
+
+
+}
+table, th, td {
+    border: 1px solid rgb(90, 88, 88);
+    background: #53355c; 
+    color: white;
+    
+}
+
+.title{
+    font-size:x-large;
+    background: rgb(83, 53, 92);
+    color: white;
+
+}
